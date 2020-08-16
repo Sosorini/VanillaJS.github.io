@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Username Persistance. -->
+    <div class="js-user user">
+        <form class="js-user-form userForm">
+            <h3>What is your name?</h3>
+            <input class="js-user-input" type="text" placeholder="Enter your name.">
+        </form>
+    </div>
+    <!-- clock -->
+    <div class="js-clock clock">
+        <span></span>
+        <h3></h3>
+    </div>
+    <!-- To Do List -->
+    <div class="js-todo todos">
+        <form class="js-todo-list">
+            <input class="js-todo-input" type="text" placeholder="Add TODOs." onfocus="this.placeholder = ''" onblur="this.placeholder = 'Add TODOs.'">
+        </form>
+        <ul></ul>
+    </div>
+    <!-- weather -->
+    <span class="js-weather weather"></span>
+    
+    <script src="userLoad.js"></script>
+    <script src="clock.js"></script>
+    <script src="bg.js"></script>
+    <script src="weather.js"></script>
+    <script src="todos.js"></script>
+</body>
+</html>
