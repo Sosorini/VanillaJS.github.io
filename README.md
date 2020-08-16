@@ -17,11 +17,11 @@
 
 
 
-- append && prepend
-- localStorage - setItem && getItem
-- createElement
-- appendChild
-- removeChild
+- append() && prepend()
+- localStorage - setItem() && getItem()
+- createElement()
+- appendChild()
+- removeChild()
 - forEach()
 - filter()
 - find()
